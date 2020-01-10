@@ -20,16 +20,19 @@ body {
 .container-fluid > div:nth-child(5) {
   display: none;
 }
-.container-fluid > div:nth-child(8) {
+.container-fluid > div:nth-child(7) {
   display: none;
 }
-.container-fluid > div:nth-child(10) {
+.container-fluid > div:nth-child(9) {
   display: none;
 }
-.container-fluid > div:nth-child(13) {
+.container-fluid > div:nth-child(11) {
   display: none;
 }
-.container-fluid > div:nth-child(15) {
+.container-fluid > div:nth-child(14) {
+  display: none;
+}
+.container-fluid > div:nth-child(16) {
   display: none;
 }
 
@@ -220,13 +223,6 @@ body {
 .content-our-customer .detail-our-customer p {
   font-size: 18px;
 }
-.content-our-customer .list-our-customer > div:nth-child(4) {
-  margin-top: -10px;
-}
-.content-our-customer .list-our-customer > div:nth-child(4) > img {
-  height: 100px;
-  width: 99px;
-}
 .content-our-customer .list-our-customer .one-customer p {
   font-size: 13px;
   margin-top: 16px;
@@ -271,6 +267,12 @@ body {
   color: #8bc34a;
   padding-left: 19px;
   font-size: 13px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
