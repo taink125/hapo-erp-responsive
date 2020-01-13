@@ -1,6 +1,6 @@
 @import "attribute.scss";
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .event-start-now {
     a {
       font-size: 14px;
@@ -199,7 +199,7 @@
 }
 
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
   .event-start-now {
     a {
       padding: 11.5px 28.3px;
@@ -216,7 +216,6 @@
 
     .header-top {
       font-size: 12px;
-      font-weight: bold;
       padding: 15px 2.474% 0 0;
 
       a {
@@ -365,7 +364,7 @@
       width: 96px;
     }
 
-    .brand {
+    .brand-icon {
       margin: 24px 0 0 0;
 
       i {
@@ -373,9 +372,10 @@
         color: $color-gr;
         font-size: 13px;
       }
-
+    }
+    
+    .copyright{
       p {
-        margin: 0 0 0 277px;
         color: #ffffff;
         font-size: 10px;
       }
