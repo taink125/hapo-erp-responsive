@@ -137,11 +137,23 @@ body {
     box-shadow: 1px 1px 2px #888888;
     font-size: 16px;
     letter-spacing: 1.33px;
-    padding: 15.5px 47.6px;
+    padding: 15.3px 44.1px;
+
+    &:after {
+      content: '\f105';
+      font-family: fontAwesome;
+      position: relative;
+      left: -20px;
+      opacity: 0;
+      transition: .2s;
+    };
+
+    &:hover:after {
+      left: 10px;
+      opacity: 1;
+    };
   }
 }
-
-
 
 .title-content {
   color: #444444;
@@ -189,7 +201,7 @@ body {
 
 .lists-content {
   background-image: $color-grdien;
-  padding: 68.5px 20.1%;
+  padding: 68.5px 20.4%;
   margin: 0 -15px;
 }
 
@@ -250,16 +262,18 @@ body {
 }
 
 .content-our-customer {
-  height: 544px;
   margin: 0 -15px;
+
   background: {
     image: url("../images/rectangle3.png");
-    cover: contain;
+    cover: cover;
     size: 100% 100%;
     repeat: no-repeat;
   }
 
   .title-our-customer {
+    margin-bottom: 38px;
+
     p {
       font-size: 48px;
       letter-spacing: -0.09px;
@@ -278,23 +292,20 @@ body {
   }
 
   .list-our-customer {
-
+    padding: 5px 0;
+  
     .one-customer {
       p {
         font-size: 13px;
         margin-top: 16px;
       }
-    }
-  }
 
-  .set-ti-more {
-    padding: 0 46.07%;
-
-    .style-timore {
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-      border: 1px solid #ffffff;
+      > img {
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.1, 1.1);
+        }
+      }
     }
   }
 }
@@ -343,8 +354,15 @@ body {
 
 .carousel-indicators {
   li {
+    margin: 0 8px;
     width: 10px;
     height: 10px;
     border-radius: 100%;
+    background-color: unset;
+    border: 1px solid rgb(151, 151, 151);
+  }
+
+  .active {
+    background-color: #ffffff;
   }
 }

@@ -5,7 +5,7 @@
     a {
       font-size: 14px;
       letter-spacing: 1.17px;
-      padding: 14px 28.3px;
+      padding: 14px 25.3px;
     }
   }
 
@@ -170,10 +170,11 @@
     background: {
       image: url("../images/oc-sm.png");
     }
-    padding: 0 2.474%;
+
+    padding: 0 2.5%;
 
     .one-customer {
-      padding: 0 3.06%;
+      padding: 0 3.1%;
 
       p {
         font-size: 13px;
@@ -202,7 +203,7 @@
 @media only screen and (max-width: 576px) {
   .event-start-now {
     a {
-      padding: 11.5px 28.3px;
+      padding: 11.5px 25.3px;
       margin-top: 0;
     }
   }
@@ -387,7 +388,7 @@
     align-items: flex-start;
 
     .one-content {
-      padding: 0 8.98%;
+      padding: 0 6%;
     }
   }
 
@@ -403,7 +404,7 @@
 
     .list-our-customer {
       .one-customer {
-        padding: 0 5.73%;
+        padding: 0 4%;
       }
     }
 
