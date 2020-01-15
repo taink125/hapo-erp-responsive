@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@font-face {
+  font-family: Roboto;
+}
 *,
 *:after,
 *:before {
@@ -137,9 +140,8 @@ body {
   margin-right: 19px;
 }
 .title-content p {
-  font-weight: lighter;
   font-size: 48px;
-  letter-spacing: -0.09;
+  font-weight: lighter;
 }
 
 .short-text-title p {

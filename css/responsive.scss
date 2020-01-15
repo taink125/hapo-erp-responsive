@@ -1,7 +1,10 @@
 @import "attribute.scss";
+@import url(“https://fonts.google.com/specimen/Roboto”);
 
 @media only screen and (max-width: 768px) {
   .event-start-now {
+    margin: 0;
+
     a {
       font-size: 14px;
       letter-spacing: 1.17px;
@@ -21,7 +24,7 @@
 
       .about-us {
         padding-right: 2.998%;
-      } 
+      }
     }
 
     .logo {
@@ -105,11 +108,11 @@
 
   .td-ilearnt-mb {
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-    padding: 50px 2.5%;
+    padding: 50px 2.474%;
     margin: 0 -15px;
 
     .title-content {
-      i, h3 {
+      i, p {
         font-size: 36px;
       }
     }
@@ -203,11 +206,9 @@
 // Responsive trên điện thoại
 @media only screen and (max-width: 576px) {
   .event-start-now {
-    padding: 0;
-
     a {
       padding: 11.5px 25.3px;
-      margin-top: -20px;
+      margin-top: 0;
     }
   }
 
@@ -249,7 +250,7 @@
       }
 
       .icon-center {
-        padding: 0 6.76% 0 15.1%;
+        padding: 0 6.76% 0 16.1%;
       }
     }
 
@@ -265,14 +266,14 @@
   .td-ilearnt-mb {
     .title-content {
       margin-top: -30px;
-      i, h3 {
+      i, p {
         font-size: 24px;
       }
     }
 
     .image-content {
       img {
-        width: 100%;
+        height: 308px;
       }
     }
 
@@ -330,8 +331,6 @@
   }
 
   .members {
-    height: 760px;
-
     .image-content {
       img {
         margin-top: 20px;
@@ -412,13 +411,6 @@
     }
 
     .detail-our-customer {
-      .para-our-customer {
-        p {
-          width: 100vw;
-          padding: 0 2.1%;
-        }
-      } 
-
       i {
         font-size: 48px;
       }
@@ -430,46 +422,43 @@
   }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 575px) {
-  .td-ilearnt-mb {
-    padding: 60px 2.1% 30px;
-  }
+@media screen and (min-width: 375px) and (max-width: 479px) {
+  .event-start-now {
+    margin: 0;
 
-  .image-content {
-    img {
-      width: 100%;
+    a {
+      padding: 11.5px 25.3px;
+      margin-top: 0;
     }
   }
 
   .lists-content {
     .one-content {
-      padding: 0 3%;
+      margin: 0 -3%;
     }
-  }
+  } 
 
   .content-our-customer {
     .list-our-customer {
       .one-customer {
-        padding: 0 1.6%;
+        margin: 0 -2.3%;
       }
     }
 
     .detail-our-customer {
-      .sixty-six {
-        padding-left: 10%;
-        margin-bottom: 10px;
+      i {
+        font-size: 48px;
       }
 
-      .ninety-nine {
-        margin-right: 30%;
+      p {
+        font-size: 14px;
       }
     }
   }
 
   .footer-xs {
     .col-3 {
-      padding: 0;
+      padding: 0 0 0 9.5px;
     }
   }
-  
 }

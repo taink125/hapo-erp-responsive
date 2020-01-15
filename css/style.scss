@@ -1,5 +1,9 @@
 @import "attribute.scss";
 
+@font-face {
+  font-family: Roboto;
+}
+
 *,
 *:after,
 *:before {
@@ -166,11 +170,8 @@ body {
   }
 
   p {
-    font: {
-      weight: lighter;
-      size: 48px;
-    }
-    letter-spacing: -0.09;
+    font-size: 48px;
+    font-weight: lighter;
   }
 }
 
