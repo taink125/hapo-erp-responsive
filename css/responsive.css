@@ -312,7 +312,7 @@
   }
 
   .content-our-customer .list-our-customer .one-customer {
-    margin: 0 -1.3%;
+    margin: 0 -2.3%;
   }
   .content-our-customer .detail-our-customer {
     flex-direction: column;
@@ -331,6 +331,10 @@
 
   .footer-xs .col-3 {
     padding: 0 0 0 9.5px;
+  }
+
+  .project-mb .col-sm-6 {
+    flex-wrap: wrap-reverse;
   }
 }
 
