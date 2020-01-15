@@ -13,11 +13,14 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: Roboto;
   font-size: 13px;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .container-fluid {
