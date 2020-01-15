@@ -469,4 +469,10 @@
       padding: 0 0 0 9.5px;
     }
   }
+
+  .project-mb {
+    .col-sm-6 {
+      flex-wrap: wrap-reverse;
+    }
+  }
 }
