@@ -73,7 +73,8 @@
 
   .td-ilearnt-mb {
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-    padding: 50px 2.474%;
+    padding: 50px 2.5%;
+    margin: 0 -15px;
   }
   .td-ilearnt-mb .title-content i, .td-ilearnt-mb .title-content h3 {
     font-size: 36px;
@@ -144,9 +145,12 @@
   }
 }
 @media only screen and (max-width: 576px) {
+  .event-start-now {
+    padding: 0;
+  }
   .event-start-now a {
     padding: 11.5px 25.3px;
-    margin-top: 0;
+    margin-top: -20px;
   }
 
   .header-only-pc {
@@ -170,13 +174,13 @@
     margin-top: 19px;
   }
   .header-only-pc .three-icon-hd {
-    margin-top: 15px;
+    margin-top: 25px;
   }
   .header-only-pc .three-icon-hd .one-content-hd p, .header-only-pc .three-icon-hd .one-content-hd i {
     font-size: 18px;
   }
   .header-only-pc .three-icon-hd .icon-center {
-    padding: 0 2.76% 0 4.1%;
+    padding: 0 6.76% 0 15.1%;
   }
   .header-only-pc .short-text-hd {
     margin-top: -13px;
@@ -192,7 +196,7 @@
     font-size: 24px;
   }
   .td-ilearnt-mb .image-content img {
-    height: 308px;
+    width: 100%;
   }
   .td-ilearnt-mb .para-content p {
     margin-top: 20px;
@@ -288,11 +292,43 @@
   .content-our-customer .list-our-customer .one-customer {
     padding: 0 4%;
   }
+  .content-our-customer .detail-our-customer .para-our-customer p {
+    width: 100vw;
+    padding: 0 2.1%;
+  }
   .content-our-customer .detail-our-customer i {
     font-size: 48px;
   }
   .content-our-customer .detail-our-customer p {
     font-size: 14px;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 575px) {
+  .td-ilearnt-mb {
+    padding: 60px 2.1% 30px;
+  }
+
+  .image-content img {
+    width: 100%;
+  }
+
+  .lists-content .one-content {
+    padding: 0 3%;
+  }
+
+  .content-our-customer .list-our-customer .one-customer {
+    padding: 0 1.6%;
+  }
+  .content-our-customer .detail-our-customer .sixty-six {
+    padding-left: 10%;
+    margin-bottom: 10px;
+  }
+  .content-our-customer .detail-our-customer .ninety-nine {
+    margin-right: 30%;
+  }
+
+  .footer-xs .col-3 {
+    padding: 0;
   }
 }
 

@@ -102,6 +102,9 @@ body {
   font-style: italic;
 }
 
+.event-start-now {
+  margin-top: 34px;
+}
 .event-start-now a {
   text-decoration: none;
   text-transform: uppercase;
@@ -130,12 +133,12 @@ body {
   color: #444444;
 }
 .title-content i.size-icon-title {
-  font-size: 2.25em;
+  font-size: 36px;
   margin-right: 19px;
 }
-.title-content h3 {
+.title-content p {
   font-weight: lighter;
-  font-size: 3em;
+  font-size: 48px;
   letter-spacing: -0.09;
 }
 
@@ -159,10 +162,13 @@ body {
   height: 371px;
 }
 
-.lists-content {
+.list-ct-slider {
   background-image: linear-gradient(to right, #429321, #b4ec51);
-  padding: 68.5px 20.4%;
   margin: 0 -15px;
+}
+
+.lists-content {
+  padding: 68.5px 20.4%;
 }
 
 .one-content {
@@ -294,6 +300,10 @@ body {
 }
 .carousel-indicators .active {
   background-color: #ffffff;
+}
+
+.of-content li {
+  border: 1px solid #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

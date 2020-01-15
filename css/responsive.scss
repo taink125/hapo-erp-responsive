@@ -21,7 +21,7 @@
 
       .about-us {
         padding-right: 2.998%;
-      }
+      } 
     }
 
     .logo {
@@ -105,7 +105,8 @@
 
   .td-ilearnt-mb {
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-    padding: 50px 2.474%;
+    padding: 50px 2.5%;
+    margin: 0 -15px;
 
     .title-content {
       i, h3 {
@@ -199,12 +200,14 @@
   }
 }
 
-
+// Responsive trên điện thoại
 @media only screen and (max-width: 576px) {
   .event-start-now {
+    padding: 0;
+
     a {
       padding: 11.5px 25.3px;
-      margin-top: 0;
+      margin-top: -20px;
     }
   }
 
@@ -237,7 +240,7 @@
     }
 
     .three-icon-hd {
-      margin-top: 15px;
+      margin-top: 25px;
 
       .one-content-hd {
         p, i {
@@ -246,7 +249,7 @@
       }
 
       .icon-center {
-        padding: 0 2.76% 0 4.1%;
+        padding: 0 6.76% 0 15.1%;
       }
     }
 
@@ -269,7 +272,7 @@
 
     .image-content {
       img {
-        height: 308px;
+        width: 100%;
       }
     }
 
@@ -409,6 +412,13 @@
     }
 
     .detail-our-customer {
+      .para-our-customer {
+        p {
+          width: 100vw;
+          padding: 0 2.1%;
+        }
+      } 
+
       i {
         font-size: 48px;
       }
@@ -418,4 +428,48 @@
       }
     }
   }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 575px) {
+  .td-ilearnt-mb {
+    padding: 60px 2.1% 30px;
+  }
+
+  .image-content {
+    img {
+      width: 100%;
+    }
+  }
+
+  .lists-content {
+    .one-content {
+      padding: 0 3%;
+    }
+  }
+
+  .content-our-customer {
+    .list-our-customer {
+      .one-customer {
+        padding: 0 1.6%;
+      }
+    }
+
+    .detail-our-customer {
+      .sixty-six {
+        padding-left: 10%;
+        margin-bottom: 10px;
+      }
+
+      .ninety-nine {
+        margin-right: 30%;
+      }
+    }
+  }
+
+  .footer-xs {
+    .col-3 {
+      padding: 0;
+    }
+  }
+  
 }
