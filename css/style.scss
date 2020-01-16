@@ -258,14 +258,13 @@ body {
   }
 
   p {
-    text: {
-      align: justify;
-      overflow: ellipsis;
-    }
+    text-align: justify;
     font-size: 0.677vw;
     color: $color-br;
     overflow: hidden;
-    height: 42px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     align-items: center;
   }
 }

@@ -218,11 +218,12 @@ body {
 }
 .one-content-member p {
   text-align: justify;
-  text-overflow: ellipsis;
   font-size: 0.677vw;
   color: #283238;
   overflow: hidden;
-  height: 42px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   align-items: center;
 }
 
