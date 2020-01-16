@@ -160,13 +160,14 @@ body {
 }
 
 .content {
-  height: 571px;
   padding: 100px 20.3125%;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
+.content .image-content {
+  width: 50%;
+}
 .content .image-content img {
-  width: 96%;
-  height: 371px;
+  width: 100%;
 }
 
 .list-ct-slider {
@@ -210,9 +211,6 @@ body {
   font-size: 24px;
 }
 
-.one-content-member {
-  margin-top: 2em;
-}
 .one-content-member i {
   margin-right: 18px;
   font-size: 18px;
@@ -224,7 +222,7 @@ body {
   font-size: 0.677vw;
   color: #283238;
   overflow: hidden;
-  height: 50px;
+  height: 42px;
   align-items: center;
 }
 
