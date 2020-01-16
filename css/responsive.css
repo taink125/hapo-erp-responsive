@@ -54,6 +54,9 @@
   .container-fluid > div:nth-child(9) {
     display: none;
   }
+  .container-fluid > div:nth-child(3) {
+    display: block;
+  }
   .container-fluid > div:nth-child(5) {
     display: block;
   }
@@ -324,12 +327,12 @@
     font-size: 14px;
     margin-top: -50px;
   }
-  .content-our-customer .detail-our-customer .ninety-nine {
+  .content-our-customer .detail-our-customer .ninety-nin e {
     padding-left: 87%;
     margin-top: -25px;
   }
 
-  .footer-xs .col-3 {
+  .footer-xs .row .col-3 {
     padding: 0 0 0 9.5px;
   }
 

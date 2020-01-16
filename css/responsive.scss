@@ -76,6 +76,10 @@
         display: none;
       };
 
+      &:nth-child(3) {
+        display: block;
+      };
+
       &:nth-child(5) {
         display: block;
       };
@@ -457,7 +461,7 @@
         margin-top: -50px;
       }
 
-      .ninety-nine {
+      .ninety-nin e{
         padding-left: 87%;
         margin-top: -25px;
       }
@@ -465,8 +469,10 @@
   }
 
   .footer-xs {
-    .col-3 {
+    .row {
+      .col-3 {
       padding: 0 0 0 9.5px;
+      }
     }
   }
 
